@@ -1,0 +1,56 @@
+﻿/*Grade Online*/
+.ui-button .ui-button-text { line-height: 6px;  }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {color:Black; font-size:13px; }
+.ui-profile-detail {border: 1px solid #c5dbec; font-size:13px; }
+.ui-GPA-detail {border: 1px solid #c5dbec; font-size:13px; text-align:center; }
+.ui-widget-header {font-size:13px; }
+.title4TD {
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	/*background-color:#FFCCCC;*/
+	padding-top:1px;
+	padding-bottom:1px;
+}
+.title5TD {
+
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	/*background-color:#BFD8DF;*/
+	padding-top:1px;
+	padding-bottom:1px;
+}
+.uiElementTD {
+	vertical-align:middle;
+	/*text-align:left;*/
+	background-color:#F7F7F7;
+}
+/*ST47 Online*/
+.ui-StdST47-detail {border: 1px solid #c5dbec; font-size:13px; text-align:center; }
+.ui-Underline-Html{border-bottom:2px dotted black;}
+/*.ui-Underline-Html{ BORDER-RIGHT: #000000 thin; BORDER-TOP: #000000 thin ; FONT-SIZE: 14px; BORDER-LEFT: #000000 thin; BORDER-BOTTOM: #000000 thin solid; FONT-FAMILY: "MS Sans Serif" }*/
+/*ดำเนินการแล้ว (ข้อมูลถูกต้อง)*/
+.ui-state-highlight-complete {
+	border: 1px solid #555346;
+	background: #19f260 url(../images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+	color: #363636;
+}
+/*ดำเนินการแล้ว (ยังไม่เขียนใบคำร้อง)*/
+.ui-state-highlight-wait {
+	border: 1px solid #555346;
+	background: #FF0033 url(../images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+	color: #000000;
+}
+/*ยังไม่ดำเนินการ*/
+.ui-state-highlight-error {
+	border: 1px solid #555346;
+	background: #FFFFFF url(../images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+	color: #000000;
+}
+/*ดำเนินการแล้ว (มีใบคำร้อง)*/
+.ui-state-highlight-waitComplete {
+	border: 1px solid #555346;
+	background: #FFFF33 url(../images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+	color: #000000;
+}
